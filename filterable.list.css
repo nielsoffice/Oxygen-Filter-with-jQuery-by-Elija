@@ -1,0 +1,45 @@
+.fast-filter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Rubik';
+	color: white;
+}
+
+.fast-filter label {
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+
+.fast-filter input {
+	border-style: none;
+	background-color: white;
+	border-radius: 8px;
+	padding: 8px;
+	font-size: 32px;
+	width: 100%;
+}
+
+.checkboxes {
+	margin-top: 16px;
+}
+
+.checkboxes [data-search-term] {
+	display: none;
+}
+
+.checkboxes label {
+	padding: 8px;
+	border-radius: 8px;
+	border: 1px solid white;
+	margin-left: 8px;
+	margin-right: 8px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.checkboxes [data-search-term]:checked + label {
+	background-color: #58D68D;
+	border: 1px solid #58D68D;
+}
